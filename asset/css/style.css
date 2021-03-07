@@ -1,0 +1,127 @@
+#bandeau{
+    background-color: #db1342;
+    margin: 0 !important;
+    padding: 100px 0;
+    color: white;
+    font-size: 4em;
+} 
+
+#bg-white{
+    background-color: white !important;
+    border: solid #db1342 !important;
+    color: #db1342 !important;
+    margin: 0 !important;
+    padding: 100px 0 !important;
+    font-size: 4em;
+}
+
+
+h3 {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.container {
+    min-height: 600px !important;
+}
+
+#check{
+    margin-left: 30%;
+}
+
+/*************************** div#category #techno *****************************/
+
+#category,
+#techno {
+    width: 85%;
+    margin: 0 auto;
+    min-height: 800px;
+}
+#category-form,
+#techno-form {
+    border: 1px grey solid;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 40%;
+    margin: 0 auto;
+}
+#category a,
+#category-form a,
+#techno a,
+#techno-form a {
+    display: block;
+    text-decoration: none;
+    color: currentColor !important;
+}
+
+#category .card,
+#techno .card {
+    background: white;
+}
+#category .card-footer,
+#techno .card-footer {
+    line-height: 2.5rem;
+    background: rgba(0, 0, 0, .1);
+}
+#category .card-footer ul,
+#category .card-footer li,
+#techno .card-footer ul, 
+#techno .card-footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#category .card-footer li,
+#techno .card-footer li {
+    display: inline-block;
+    width: 49%;
+}
+#category .card-footer li:first-child,
+#techno .card-footer li:first-child {
+    border-right: 1px black solid;
+}
+#category .card-footer a,
+#techno .card-footer a {
+    display: block;
+}
+#category .card-footer li:hover,
+#techno .card-footer li:hover {
+    background: rgba(0, 0, 0, .3);
+}
+
+
+#category-form input,
+#techno-form input {
+    border-radius: 4px;
+}
+#category-form textarea,
+#techno-form textarea {
+    width: 75% !important;
+}
+
+#menu-categ-form,
+#menu-techno-form {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+#menu-categ,
+#menu-techno {
+    background-color: white;
+    width: 40%;
+}
+#menu-categ li,
+#menu-techno li {
+    line-height: 2.5rem;
+    min-width: 15rem;
+    padding: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, .1);
+    list-style-type: none;
+}
+#menu-categ li a:hover,
+#menu-techno li a:hover {
+    background: rgba(0, 0, 0, .2);
+}
